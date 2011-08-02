@@ -1,6 +1,7 @@
 /* ====== media (requires mod.css) ====== */
 .media{margin: 10px;display:block;zoom:1}
-.media:after{clear:both;content:".";display:block;font-size:0;height:0;line-height:0;visibility:hidden}
+.media:before,.media:after{content:"";display:table;}
+.media:after{clear:both;}
 .media .bd{display:table-cell; _display:block;vertical-align:top;width:10000px;*width:auto;*zoom:1}
 .media .bd > :first-child{margin-top:0;}
 .media .bd > :last-child{margin-bottom:0;}

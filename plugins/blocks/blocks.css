@@ -1,0 +1,29 @@
+/*blocks*/
+.blockcontainer{font-family:'Courier New',monospace;letter-spacing:-0.63em; word-spacing:-0.63em;}
+.block{display: inline-block;display: -moz-inline-stack;*display:inline;zoom: 1; font-family:Georgia, serif;letter-spacing:normal;word-spacing:normal;vertical-align: middle;}
+.lastBlock{margin-right:-1px;}
+
+/*unit size classes*/
+.block.size1of1{display:block;}
+.size1of2{width:50%;}
+.size1of3{width:33.33333%;}
+.size2of3{width:66.66666%;}
+.size1of4{width:25%;}
+.size3of4{width:75%;}
+.size1of5{width:20%;}
+.size2of5{width:40%;}
+.size3of5{width:60%;}
+.size4of5{width:80%;}
+
+/*demo styling*/
+.gutter{padding:10px;border:1px solid #333}
+.size1of1{background-color:pink;}
+.size1of2{background-color:red;}
+.size1of3{background-color:orange;}
+.size2of3{background-color: yellow;}
+.size1of4{background-color:lime;}
+.size3of4{background-color:green;}
+.size1of5{background-color:aqua;}
+.size2of5{background-color:blue;}
+.size3of5{background-color:purple;}
+.size4of5{background-color:magenta;}
